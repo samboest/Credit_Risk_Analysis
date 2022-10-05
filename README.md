@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 Using a credit card  dataset from LendingClub, a peer-to-peer lending services company, I ran an exploratory analysis to determin the best ML  technique to produce the strongest modle to predict High and low risk loans.  Non-esemble techniques included: RandomOverSampler, SMOTE, ClusterCentroids, and SMOTEENN algorythms.  Secondly, I comapred two ensamble models 1) BalancedRandomForestClassifier 2) EasyEnsembleAdaBoostClassifier to compare against the non-esemble modles.  
 
@@ -11,13 +11,14 @@ To predict credit risk, I recommend using the final technique tested, EasyEnsemb
 ## Result Outputs
 
 ### RandomOverSampler
-
+![](Resources/Naive_Random_Oversampling.png)
 ### SMOTE
-
+![](Resources/SMOTE_Oversampling.png)
 ### ClusterCentroids
-
+![](Resources/Undersampling_ClusterCentroids.png)
 ### SMOTEENN
-
+![](Resources/SMOTEENN_Combination_Resamplingf.png)
 ### BalancedRandomForestClassifier
-
+![](Resources/Balanced%20Random%20Forest.png)
 ### EasyEnsembleClassifier
+![](Resources/Easy_Ensemble_Adaboost.png)
